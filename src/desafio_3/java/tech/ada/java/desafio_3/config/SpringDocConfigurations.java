@@ -1,4 +1,4 @@
-package tech.ada.java.desafio_bootcampdacielo.config;
+package tech.ada.java.desafio_3.config;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -25,4 +25,3 @@ public class SpringDocConfigurations {
                                 .email("diego.r.cadoso@hotmail.com")));
     }
 }
-

@@ -10,7 +10,11 @@ public class ClientQueueService {
 
     @PostConstruct
     public void init() {
+<<<<<<< HEAD
         this.clientQueue = new ClientQueue(100); // Initial capacity
+=======
+        this.clientQueue = new ClientQueue(100);
+>>>>>>> 31cc895 (quase la)
     }
 
     public void addToQueue(long clientId) {
